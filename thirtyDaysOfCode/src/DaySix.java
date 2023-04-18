@@ -20,7 +20,6 @@ for(i=0;i<numString;i++){
     }
     System.out.println(even + " " + odd);
 }
-
     }
 }
 
