@@ -8,8 +8,9 @@ public class DaySeven {
     //4 3 2 1
     public static void main(String[] args) {
 Scanner in = new Scanner(System.in);
-int n = in.nextInt();
-int[] ar = new int[n];//declare a arraye size
+ int n = in.nextInt();
+ int[] ar;//declare
+ ar=new int[n];//allocate
 for(int i=0;i<n;i++){
     ar[i] = in.nextInt();//initialize a array input
 }for(int i=0;i<n/2;i++){
