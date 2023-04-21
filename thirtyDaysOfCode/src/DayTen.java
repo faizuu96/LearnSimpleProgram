@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class DayTen {
     public static void main(String[] args) {
+        //Binary 1's count
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int count = 0;
