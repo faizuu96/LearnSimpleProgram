@@ -2,7 +2,6 @@ import jdk.nashorn.internal.runtime.SharedPropertyMap;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class ArraysDictionaryandMaps {
     public static void main(String[] args) {
