@@ -21,7 +21,7 @@ Scanner in = new Scanner(System.in);
     ar[n-1-i] = temp;
         }
         for(int i=0;i<n;i++){
-            System.out.print(ar[i]);
+            System.out.print(ar[i]+" ");
         }
     }
 }
