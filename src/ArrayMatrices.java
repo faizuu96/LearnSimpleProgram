@@ -6,22 +6,24 @@ public class ArrayMatrices {
         System.out.println("Enter the number of rows and columns of matirix");
         int m =in.nextInt();
         int n = in.nextInt();
-        int [][] a = new int[m][n];
-        int [][] b = new int[m][n];
-        int [][] sum = new int[m][n];
-        for(int i=0;i<m;i++)
-            for(int j=0;j<n;j++)
-                a[i][j]=in.nextInt();
-        for(int i=0;i<m;i++)
-            for(int j=0;j<n;j++)
-                b[i][j]=in.nextInt();
-        for(int i=0;i<m;i++)
-            for(int j=0;j<n;j++)
-        sum[i][j]=a[i][j]*b[i][j];
-        for(int i=0;i<m;i++){
+        int a [][]  = new int[m][n];
+        int b [][]  = new int[m][n];
+        int sum [][] = new int[m][n];
+        int i,j;
+        for(i=0;i<m;i++)
+            for( j=0;j<n;j++)
 
-            for(int j=0;j<n;j++)
-        System.out.println(sum[i][j]+"\t");
+                a[i][j]=in.nextInt();
+        for( i=0;i<m;i++)
+            for( j=0;j<n;j++)
+                b[i][j]=in.nextInt();
+        for( i=0;i<m;i++)
+            for( j=0;j<n;j++)
+        sum[i][j]=a[i][j]+b[i][j];
+        for( i=0;i<m;i++){
+
+            for( j=0;j<n;j++)
+        System.out.print(sum[i][j]+"\t");
             System.out.println();
                     }
                 }
