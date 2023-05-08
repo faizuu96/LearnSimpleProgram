@@ -1,6 +1,5 @@
 import java.util.Scanner;
 class Person {
-
         protected String firstName;
         protected String lastName;
         protected int idNumber;

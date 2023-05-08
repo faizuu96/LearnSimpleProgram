@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-
-
     abstract class Book {
         String title;
         String author;
@@ -10,7 +7,6 @@ import java.util.Scanner;
             this.title = title;
             this.author = author;
         }
-
         abstract void display();
     }
     class MyBook extends Book {
@@ -40,4 +36,3 @@ import java.util.Scanner;
             book.display();
         }
     }
-
