@@ -22,7 +22,7 @@ public class JavaCurrencyFormatter {
        DecimalFormat indFormat = new DecimalFormat("'Rs.'###,###.00");
        String indCurrency = indFormat.format(value);
 
-       DecimalFormat chinaFormat = new DecimalFormat("¥###,###.00");
+       NumberFormat chinaFormat = NumberFormat.getCurrencyInstance(Locale.CHINA);
        String chinaCurrency = chinaFormat.format(value);
 
        NumberFormat franceFormat = NumberFormat.getCurrencyInstance(Locale.FRANCE);
